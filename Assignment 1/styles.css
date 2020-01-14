@@ -1,0 +1,68 @@
+/*For topDiv class*/
+.topDiv h1 {
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 10px;
+}
+.topDiv h3 {
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: lighter;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-top:20px;
+}
+.tableContent table{
+	font-family: 'Times New Roman', sans-serif;
+	border-collapse: collapse;
+	width: 95%;
+	margin: 0 auto;
+}
+.tableContent td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  
+}
+
+.tableContent tr:nth-child(odd) {
+  background-color: rgba(239,231,112,0.2);
+}
+/*For center image*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+}
+/*For List*/
+h3.listCon{
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: lighter;
+  line-height: 0px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+/*For gallery*/
+.row {
+  margin: 10px ;
+}
+.row,
+.row > .column {
+  padding: 10px;
+}
+.column {
+  float: left;
+  width: 23%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content {
+  background-color: #f2ffde;
+  padding: 10px;
+}
